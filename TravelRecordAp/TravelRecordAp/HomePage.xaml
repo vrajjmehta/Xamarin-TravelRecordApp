@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<TabbedPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:local="clr-namespace:TravelRecordAp"   
+             mc:Ignorable="d"
+             x:Class="TravelRecordAp.HomePage">
+    <TabbedPage.ToolbarItems>
+        <ToolbarItem Icon="ic_action_add_circle_outline.png"
+                     Clicked="ToolbarItem_Clicked"/>
+    </TabbedPage.ToolbarItems>
+    <local:HistoryPage Icon="ic_action_home.png"></local:HistoryPage> 
+    <local:MapPage Icon="ic_action_map.png"></local:MapPage>
+    <local:ProfilePage Icon="ic_action_person.png"></local:ProfilePage> 
+</TabbedPage>
+    
