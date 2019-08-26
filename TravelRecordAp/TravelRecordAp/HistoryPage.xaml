@@ -6,7 +6,8 @@
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
              mc:Ignorable="d"
              x:Class="TravelRecordAp.HistoryPage" Title="History">
-    <ListView x:Name="postListView">
+    <StackLayout Margin="20,20">
+    <ListView x:Name="postListView" >
         <ListView.ItemTemplate>
             <DataTemplate>
                 <ViewCell>
@@ -17,4 +18,5 @@
             </DataTemplate>
         </ListView.ItemTemplate>
     </ListView>
+    </StackLayout>
 </ContentPage>

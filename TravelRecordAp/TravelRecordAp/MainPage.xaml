@@ -6,8 +6,8 @@
              mc:Ignorable="d"
              x:Class="TravelRecordAp.MainPage">
 
-    <StackLayout VerticalOptions="Center"
-                 Margin="20">
+  <StackLayout VerticalOptions="Center"
+               Margin="20">
         <Image x:Name="iconImage"
                Aspect="AspectFit"
                HorizontalOptions="FillAndExpand"
@@ -24,6 +24,9 @@
                 BackgroundColor="DodgerBlue"
                 TextColor="White"
                 Margin="0,50,0,0"/>
+        <Button x:Name="registerUserButton"
+                Text="Register"
+                Clicked="registerUserButton_Clicked"/>
     </StackLayout>
 
 </ContentPage>

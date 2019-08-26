@@ -1,12 +1,12 @@
-﻿using System;
-using Xamarin.Forms;
-using Xamarin.Forms.Xaml;
+﻿using Xamarin.Forms;
+
 
 namespace TravelRecordAp
 {
     public partial class App : Application
     {
         public static string DatabaseLocation = string.Empty;
+
         public App()
         {
             InitializeComponent();
